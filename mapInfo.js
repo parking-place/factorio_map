@@ -1,0 +1,1490 @@
+"use strict";
+window.mapInfo = JSON.parse(`{
+	"options": {
+		"ranges": {
+			"build": 5.2,
+			"connect": 1.2,
+			"tag": 5.2
+		},
+		"HD": false,
+		"defaultTimestamp": -1
+	},
+	"seed": 884198243,
+	"mapExchangeString": ">>>eNpjZGBkiGaAAAcGhgMOHCzJ+Yk5IBYMcyXnFxSkFunmF6UiC3MmF5WmpOrmZ6IqTs1Lza3UTUosRlLcYM+RWZSfh24Ca3FJfh6qSElRamoxSAMMc5cWJeZlluai62VgTD692aShRY4BhP/XMyj8/w/CQNYDoFdAmIGxAaISKAYDrMk5mWlpDAwKjkDsBFbEyFgtss79YdUUe0aIGj0HKOMDVORAEkzEE8bwc8AppQJjmCCZYwwGn5EYEEtLgFZAVXE4IBgQyRaQJCOjrrPM60dmUvZIolAAlGQHUUxwYtZMENgJVwIz84E9VOqmPePZMyDwxp6RFaRDBEQ4WACJA97MDIwCfEDWgh4goSDDAHOaHcwYEQfGNDD4BvPJYxjjsj26P4ABYQMyXA5EnAARYAvhLmOEMB36HRgd5GGykgglQP1GDMhuSEH48CTM2sNI9qM5BDMikP2BJqLigCUauEAWpsCJF8xw1wDD8wI7jOcwH5gkGZgZEAAY40sPZB8BAL5knP0=<<<",
+	"maps": [
+		{
+			"tick": 24293118,
+			"path": "113",
+			"date": "19/10/23",
+			"mods": {
+				"base": "1.1.91",
+				"L0laapk3_FactorioMaps": "4.4.0"
+			},
+			"surfaces": {
+				"nauvis": {
+					"spawn": {
+						"y": 0,
+						"x": 0
+					},
+					"zoom": {
+						"min": 14,
+						"max": 20
+					},
+					"tags": [
+						{
+							"iconType": "item",
+							"iconName": "radar",
+							"iconPath": "Images/labels/item/radar.png",
+							"position": {
+								"y": 108.63671875,
+								"x": -773.58203125
+							},
+							"text": "THAAD",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "radar",
+							"iconPath": "Images/labels/item/radar.png",
+							"position": {
+								"y": 275.63671875,
+								"x": -598.58203125
+							},
+							"text": "THAAD",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "radar",
+							"iconPath": "Images/labels/item/radar.png",
+							"position": {
+								"y": 57.79296875,
+								"x": -553.25
+							},
+							"text": "THAAD",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "radar",
+							"iconPath": "Images/labels/item/radar.png",
+							"position": {
+								"y": 606.62890625,
+								"x": -411.41796875
+							},
+							"text": "THAAD",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "virtual",
+							"iconName": "signal-dot",
+							"iconPath": "Images/labels/virtual/signal-dot.png",
+							"position": {
+								"y": 591.2265625,
+								"x": -379.8984375
+							},
+							"text": "땅끝마을",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "radar",
+							"iconPath": "Images/labels/item/radar.png",
+							"position": {
+								"y": 826.28125,
+								"x": -303.62109375
+							},
+							"text": "THAAD",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "virtual",
+							"iconName": "signal-check",
+							"iconPath": "Images/labels/virtual/signal-check.png",
+							"position": {
+								"y": 178.390625,
+								"x": -275.2421875
+							},
+							"text": "구리 판 네트워크 개발 요망",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "nuclear-reactor",
+							"iconPath": "Images/labels/item/nuclear-reactor.png",
+							"position": {
+								"y": 268.98828125,
+								"x": -262.1875
+							},
+							"text": "한빛 원자력 발전소",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "radar",
+							"iconPath": "Images/labels/item/radar.png",
+							"position": {
+								"y": -106.59765625,
+								"x": -224.89453125
+							},
+							"text": "THAAD",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "iron-plate",
+							"iconPath": "Images/labels/item/iron-plate.png",
+							"position": {
+								"y": 105.47265625,
+								"x": -248.52734375
+							},
+							"text": "고파논 대장간",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "iron-ore",
+							"iconPath": "Images/labels/item/iron-ore.png",
+							"position": {
+								"y": 138.69140625,
+								"x": -229.73828125
+							},
+							"text": "강원 양양철광산",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "radar",
+							"iconPath": "Images/labels/item/radar.png",
+							"position": {
+								"y": 683.4140625,
+								"x": -228.5859375
+							},
+							"text": "THAAD",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "radar",
+							"iconPath": "Images/labels/item/radar.png",
+							"position": {
+								"y": 956.70703125,
+								"x": -245.015625
+							},
+							"text": "THAAD",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "fluid",
+							"iconName": "water",
+							"iconPath": "Images/labels/fluid/water.png",
+							"position": {
+								"y": 151.44140625,
+								"x": -178.1875
+							},
+							"text": "바다에게 시원한 파도가 있었다는 증거",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "nuclear-reactor",
+							"iconPath": "Images/labels/item/nuclear-reactor.png",
+							"position": {
+								"y": 255.1875,
+								"x": -175.671875
+							},
+							"text": "한울 원자력 발전소",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "logistic-chest-storage",
+							"iconPath": "Images/labels/item/logistic-chest-storage.png",
+							"position": {
+								"y": 296.015625,
+								"x": -174.7109375
+							},
+							"text": "서서울우편물류센터",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "crude-oil-barrel",
+							"iconPath": "Images/labels/item/crude-oil-barrel.png",
+							"position": {
+								"y": 871.55859375,
+								"x": -178.6875
+							},
+							"text": "민주주의 배달 예정",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "electronic-circuit",
+							"iconPath": "Images/labels/item/electronic-circuit.png",
+							"position": {
+								"y": -39.78515625,
+								"x": -131.44140625
+							},
+							"text": "Samsung Electronics.",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "copper-cable",
+							"iconPath": "Images/labels/item/copper-cable.png",
+							"position": {
+								"y": -11.30859375,
+								"x": -144.890625
+							},
+							"text": "세광종합철물",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "electronic-circuit",
+							"iconPath": "Images/labels/item/electronic-circuit.png",
+							"position": {
+								"y": 18.34765625,
+								"x": -132.6796875
+							},
+							"text": "Global Foundries",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "nuclear-reactor",
+							"iconPath": "Images/labels/item/nuclear-reactor.png",
+							"position": {
+								"y": 343.140625,
+								"x": -153.33203125
+							},
+							"text": "월성 원자력 발전소",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "copper-cable",
+							"iconPath": "Images/labels/item/copper-cable.png",
+							"position": {
+								"y": -11.65234375,
+								"x": -110.55859375
+							},
+							"text": "세림철물건재",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "logistic-chest-storage",
+							"iconPath": "Images/labels/item/logistic-chest-storage.png",
+							"position": {
+								"y": 315.86328125,
+								"x": -103.84375
+							},
+							"text": "천안우편집중국",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "copper-cable",
+							"iconPath": "Images/labels/item/copper-cable.png",
+							"position": {
+								"y": 352.26953125,
+								"x": -102.48828125
+							},
+							"text": "전선맛집",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "radar",
+							"iconPath": "Images/labels/item/radar.png",
+							"position": {
+								"y": 826.1484375,
+								"x": -127.2578125
+							},
+							"text": "THAAD",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "radar",
+							"iconPath": "Images/labels/item/radar.png",
+							"position": {
+								"y": 892.06640625,
+								"x": -115.734375
+							},
+							"text": "THAAD",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "logistic-chest-storage",
+							"iconPath": "Images/labels/item/logistic-chest-storage.png",
+							"position": {
+								"y": -55.8203125,
+								"x": -68.92578125
+							},
+							"text": "부천우편집중국",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "fast-inserter",
+							"iconPath": "Images/labels/item/fast-inserter.png",
+							"position": {
+								"y": -30.20703125,
+								"x": -74.73046875
+							},
+							"text": "로리스완의 오른팔",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "copper-cable",
+							"iconPath": "Images/labels/item/copper-cable.png",
+							"position": {
+								"y": 53.9765625,
+								"x": -84.96484375
+							},
+							"text": "금광철물공구상사",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "iron-gear-wheel",
+							"iconPath": "Images/labels/item/iron-gear-wheel.png",
+							"position": {
+								"y": 77.015625,
+								"x": -77.7421875
+							},
+							"text": "모던 타임즈",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "iron-plate",
+							"iconPath": "Images/labels/item/iron-plate.png",
+							"position": {
+								"y": 103.44140625,
+								"x": -82.2421875
+							},
+							"text": "이내종합철물건재",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "iron-plate",
+							"iconPath": "Images/labels/item/iron-plate.png",
+							"position": {
+								"y": 148.18359375,
+								"x": -87.25390625
+							},
+							"text": "머성철물종합상사",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "nuclear-reactor",
+							"iconPath": "Images/labels/item/nuclear-reactor.png",
+							"position": {
+								"y": 242.14453125,
+								"x": -64.4609375
+							},
+							"text": "고리 원자력 발전소",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "used-up-uranium-fuel-cell",
+							"iconPath": "Images/labels/item/used-up-uranium-fuel-cell.png",
+							"position": {
+								"y": 313.5,
+								"x": -66.81640625
+							},
+							"text": "후쿠시마 녹차밭",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "copper-plate",
+							"iconPath": "Images/labels/item/copper-plate.png",
+							"position": {
+								"y": 9.7265625,
+								"x": -60.640625
+							},
+							"text": "10원짜리 녹이는곳",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "accumulator",
+							"iconPath": "Images/labels/item/accumulator.png",
+							"position": {
+								"y": 145.43359375,
+								"x": -41.37890625
+							},
+							"text": "영월 화력발전소",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "uranium-fuel-cell",
+							"iconPath": "Images/labels/item/uranium-fuel-cell.png",
+							"position": {
+								"y": 296.66796875,
+								"x": -32.71875
+							},
+							"text": "후쿠시마 녹차 가게",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "landfill",
+							"iconPath": "Images/labels/item/landfill.png",
+							"position": {
+								"y": 353.5625,
+								"x": -60.4375
+							},
+							"text": "난지도 메이커",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "copper-plate",
+							"iconPath": "Images/labels/item/copper-plate.png",
+							"position": {
+								"y": 398.30078125,
+								"x": -38.65625
+							},
+							"text": "구리시청",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "iron-ore",
+							"iconPath": "Images/labels/item/iron-ore.png",
+							"position": {
+								"y": 74.12109375,
+								"x": -22.48046875
+							},
+							"text": "삐딱하게",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "logistic-chest-storage",
+							"iconPath": "Images/labels/item/logistic-chest-storage.png",
+							"position": {
+								"y": 130.66796875,
+								"x": -1.50390625
+							},
+							"text": "CJ대한통운 청주 HUB",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "solar-panel-equipment",
+							"iconPath": "Images/labels/item/solar-panel-equipment.png",
+							"position": {
+								"y": 169.80859375,
+								"x": -16.09765625
+							},
+							"text": "TSMC",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "steel-plate",
+							"iconPath": "Images/labels/item/steel-plate.png",
+							"position": {
+								"y": 225.91796875,
+								"x": -24.2421875
+							},
+							"text": "강철 깃발",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "concrete",
+							"iconPath": "Images/labels/item/concrete.png",
+							"position": {
+								"y": 258.984375,
+								"x": -23.68359375
+							},
+							"text": "(주)아세아시멘트",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "uranium-235",
+							"iconPath": "Images/labels/item/uranium-235.png",
+							"position": {
+								"y": 316.86328125,
+								"x": -16.66796875
+							},
+							"text": "후쿠시마 녹차 건조대",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "stone",
+							"iconPath": "Images/labels/item/stone.png",
+							"position": {
+								"y": 346.22265625,
+								"x": -15.96484375
+							},
+							"text": "대흥자원개발",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "coal",
+							"iconPath": "Images/labels/item/coal.png",
+							"position": {
+								"y": -9.75,
+								"x": 25.375
+							},
+							"text": "아오지",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "copper-ore",
+							"iconPath": "Images/labels/item/copper-ore.png",
+							"position": {
+								"y": 2.59375,
+								"x": 0.80859375
+							},
+							"text": "10원 가득 저금통",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "stone",
+							"iconPath": "Images/labels/item/stone.png",
+							"position": {
+								"y": 244.46875,
+								"x": 17.55859375
+							},
+							"text": "㈜상주석산",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "logistic-chest-storage",
+							"iconPath": "Images/labels/item/logistic-chest-storage.png",
+							"position": {
+								"y": 282.3515625,
+								"x": 9.01953125
+							},
+							"text": "CJ대한통운 대전 HUB",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "copper-cable",
+							"iconPath": "Images/labels/item/copper-cable.png",
+							"position": {
+								"y": 305.546875,
+								"x": 29.59765625
+							},
+							"text": "가온전선",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "atomic-bomb",
+							"iconPath": "Images/labels/item/atomic-bomb.png",
+							"position": {
+								"y": 314.83203125,
+								"x": 11.30078125
+							},
+							"text": "지우개",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "rocket",
+							"iconPath": "Images/labels/item/rocket.png",
+							"position": {
+								"y": 325,
+								"x": 31
+							},
+							"text": "순한맛 지우개",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "copper-cable",
+							"iconPath": "Images/labels/item/copper-cable.png",
+							"position": {
+								"y": 352.703125,
+								"x": 24.515625
+							},
+							"text": "열린철물상회",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "radar",
+							"iconPath": "Images/labels/item/radar.png",
+							"position": {
+								"y": -293.41015625,
+								"x": 49.3359375
+							},
+							"text": "THAAD",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "copper-ore",
+							"iconPath": "Images/labels/item/copper-ore.png",
+							"position": {
+								"y": 77.3125,
+								"x": 45.234375
+							},
+							"text": "구리종 광산",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "electronic-circuit",
+							"iconPath": "Images/labels/item/electronic-circuit.png",
+							"position": {
+								"y": 128.28515625,
+								"x": 38.453125
+							},
+							"text": "NVIDIA",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "advanced-circuit",
+							"iconPath": "Images/labels/item/advanced-circuit.png",
+							"position": {
+								"y": 173.546875,
+								"x": 42.42578125
+							},
+							"text": "AMD",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "productivity-module",
+							"iconPath": "Images/labels/item/productivity-module.png",
+							"position": {
+								"y": 210.21875,
+								"x": 32.31640625
+							},
+							"text": "스마트한 쇼핑검색 다나와",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "processing-unit",
+							"iconPath": "Images/labels/item/processing-unit.png",
+							"position": {
+								"y": 236.12890625,
+								"x": 44.671875
+							},
+							"text": "Intel 14nm++",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "speed-module-2",
+							"iconPath": "Images/labels/item/speed-module-2.png",
+							"position": {
+								"y": 259.01953125,
+								"x": 39.03125
+							},
+							"text": "컴퓨터는 컴마왕",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "effectivity-module-3",
+							"iconPath": "Images/labels/item/effectivity-module-3.png",
+							"position": {
+								"y": 280.359375,
+								"x": 37.2109375
+							},
+							"text": "무상3년 A/S 팝콘피씨",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "logistic-chest-storage",
+							"iconPath": "Images/labels/item/logistic-chest-storage.png",
+							"position": {
+								"y": 11.30078125,
+								"x": 84.60546875
+							},
+							"text": "수원우편집중국",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "iron-ore",
+							"iconPath": "Images/labels/item/iron-ore.png",
+							"position": {
+								"y": 42.24609375,
+								"x": 75.09765625
+							},
+							"text": "신예미 광산",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "rocket-silo",
+							"iconPath": "Images/labels/item/rocket-silo.png",
+							"position": {
+								"y": 62.421875,
+								"x": 88.3671875
+							},
+							"text": "꿈과 희망과 세금",
+							"last_user": "SERNEZ",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "electric-furnace",
+							"iconPath": "Images/labels/item/electric-furnace.png",
+							"position": {
+								"y": 85.01171875,
+								"x": 94.8359375
+							},
+							"text": "POSCO",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "rail",
+							"iconPath": "Images/labels/item/rail.png",
+							"position": {
+								"y": 131.6953125,
+								"x": 88.39453125
+							},
+							"text": "철도 기술연구소",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "iron-plate",
+							"iconPath": "Images/labels/item/iron-plate.png",
+							"position": {
+								"y": 185.10546875,
+								"x": 72.10546875
+							},
+							"text": "메인 자원 버스",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "advanced-circuit",
+							"iconPath": "Images/labels/item/advanced-circuit.png",
+							"position": {
+								"y": 313.32421875,
+								"x": 68.1015625
+							},
+							"text": "RYZEN ZEN",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "electronic-circuit",
+							"iconPath": "Images/labels/item/electronic-circuit.png",
+							"position": {
+								"y": 335.30859375,
+								"x": 67.43359375
+							},
+							"text": "GeForce RTX 2080ti",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "advanced-circuit",
+							"iconPath": "Images/labels/item/advanced-circuit.png",
+							"position": {
+								"y": 368.5625,
+								"x": 67.5625
+							},
+							"text": "RYZEN ZEN 2",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "radar",
+							"iconPath": "Images/labels/item/radar.png",
+							"position": {
+								"y": 486.9375,
+								"x": 87.53515625
+							},
+							"text": "THAAD on a sea",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "radar",
+							"iconPath": "Images/labels/item/radar.png",
+							"position": {
+								"y": -495.9921875,
+								"x": 122.44921875
+							},
+							"text": "THAAD",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "accumulator",
+							"iconPath": "Images/labels/item/accumulator.png",
+							"position": {
+								"y": -23.109375,
+								"x": 99.44921875
+							},
+							"text": "당인리 화력발전소",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "stone",
+							"iconPath": "Images/labels/item/stone.png",
+							"position": {
+								"y": 36,
+								"x": 97.0078125
+							},
+							"text": "(주)태영EMC 청수광업소",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "logistic-chest-storage",
+							"iconPath": "Images/labels/item/logistic-chest-storage.png",
+							"position": {
+								"y": 62.30078125,
+								"x": 110.15234375
+							},
+							"text": "CJ대한통운 옥천 HUB",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "stone",
+							"iconPath": "Images/labels/item/stone.png",
+							"position": {
+								"y": 110.05859375,
+								"x": 106.984375
+							},
+							"text": "고려시멘트",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "fluid",
+							"iconName": "sulfuric-acid",
+							"iconPath": "Images/labels/fluid/sulfuric-acid.png",
+							"position": {
+								"y": 213.78125,
+								"x": 101.3984375
+							},
+							"text": "※위험※ 관계자외 출입금지",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "low-density-structure",
+							"iconPath": "Images/labels/item/low-density-structure.png",
+							"position": {
+								"y": 246.16015625,
+								"x": 101.07421875
+							},
+							"text": "벌집 피자",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "processing-unit",
+							"iconPath": "Images/labels/item/processing-unit.png",
+							"position": {
+								"y": 272.0390625,
+								"x": 106.44140625
+							},
+							"text": "Intel 14nm++++",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "copper-cable",
+							"iconPath": "Images/labels/item/copper-cable.png",
+							"position": {
+								"y": 308.78125,
+								"x": 113.64453125
+							},
+							"text": "JS전선",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "advanced-circuit",
+							"iconPath": "Images/labels/item/advanced-circuit.png",
+							"position": {
+								"y": 342.5078125,
+								"x": 122.33203125
+							},
+							"text": "RYZEN ZEN+",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "submachine-gun",
+							"iconPath": "Images/labels/item/submachine-gun.png",
+							"position": {
+								"y": -10.2109375,
+								"x": 142.8046875
+							},
+							"text": "스프링필드 조병창",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "logistic-science-pack",
+							"iconPath": "Images/labels/item/logistic-science-pack.png",
+							"position": {
+								"y": 28.31640625,
+								"x": 142.2890625
+							},
+							"text": "마약 제조실",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "engine-unit",
+							"iconPath": "Images/labels/item/engine-unit.png",
+							"position": {
+								"y": 56.8203125,
+								"x": 155.82421875
+							},
+							"text": "KIA 자동차",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "processing-unit",
+							"iconPath": "Images/labels/item/processing-unit.png",
+							"position": {
+								"y": 234.46484375,
+								"x": 140.7421875
+							},
+							"text": "Intel 14nm++++++",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "electronic-circuit",
+							"iconPath": "Images/labels/item/electronic-circuit.png",
+							"position": {
+								"y": 284.55859375,
+								"x": 159.17578125
+							},
+							"text": "GeForce RTX 2080ti SLI",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "crude-oil-barrel",
+							"iconPath": "Images/labels/item/crude-oil-barrel.png",
+							"position": {
+								"y": -517,
+								"x": 160
+							},
+							"text": "민주주의 배달 예정",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "lab",
+							"iconPath": "Images/labels/item/lab.png",
+							"position": {
+								"y": 30.953125,
+								"x": 176.25390625
+							},
+							"text": "한국과학기술연구원",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "battery",
+							"iconPath": "Images/labels/item/battery.png",
+							"position": {
+								"y": 127.3515625,
+								"x": 183.390625
+							},
+							"text": "에너자이저",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "electronic-circuit",
+							"iconPath": "Images/labels/item/electronic-circuit.png",
+							"position": {
+								"y": 108.7421875,
+								"x": 161.7890625
+							},
+							"text": "ARM Holdings ",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "fluid",
+							"iconName": "petroleum-gas",
+							"iconPath": "Images/labels/fluid/petroleum-gas.png",
+							"position": {
+								"y": -17.5,
+								"x": 192.22265625
+							},
+							"text": "SK 석유화학",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "plastic-bar",
+							"iconPath": "Images/labels/item/plastic-bar.png",
+							"position": {
+								"y": 9.54296875,
+								"x": 219.09765625
+							},
+							"text": "코오롱플라스틱(주)",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "fluid",
+							"iconName": "lubricant",
+							"iconPath": "Images/labels/fluid/lubricant.png",
+							"position": {
+								"y": 59.765625,
+								"x": 198.734375
+							},
+							"text": "PEPE",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "electric-engine-unit",
+							"iconPath": "Images/labels/item/electric-engine-unit.png",
+							"position": {
+								"y": 98.3984375,
+								"x": 192.60546875
+							},
+							"text": "TESLA, Inc.",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "fluid",
+							"iconName": "heavy-oil",
+							"iconPath": "Images/labels/fluid/heavy-oil.png",
+							"position": {
+								"y": -56.63671875,
+								"x": 242.2421875
+							},
+							"text": "썬연료가 좋더라",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "virtual",
+							"iconName": "signal-yellow",
+							"iconPath": "Images/labels/virtual/signal-yellow.png",
+							"position": {
+								"y": 74.3046875,
+								"x": 237.78515625
+							},
+							"text": "신도림역",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "iron-plate",
+							"iconPath": "Images/labels/item/iron-plate.png",
+							"position": {
+								"y": -389.93359375,
+								"x": 271.87109375
+							},
+							"text": "이자나기 대장간",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "copper-plate",
+							"iconPath": "Images/labels/item/copper-plate.png",
+							"position": {
+								"y": -210.9609375,
+								"x": 286.03515625
+							},
+							"text": "개미 허리 대장간",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "heavy-oil-barrel",
+							"iconPath": "Images/labels/item/heavy-oil-barrel.png",
+							"position": {
+								"y": -46.78515625,
+								"x": 279.9375
+							},
+							"text": "용인 유류창고",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "fluid",
+							"iconName": "light-oil",
+							"iconPath": "Images/labels/fluid/light-oil.png",
+							"position": {
+								"y": -12.46875,
+								"x": 268.10546875
+							},
+							"text": "GS 칼텍스",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "plastic-bar",
+							"iconPath": "Images/labels/item/plastic-bar.png",
+							"position": {
+								"y": 29.44140625,
+								"x": 267.4296875
+							},
+							"text": "전서계 플라스틱 오염의 근원",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "solid-fuel",
+							"iconPath": "Images/labels/item/solid-fuel.png",
+							"position": {
+								"y": 80.453125,
+								"x": 268.30078125
+							},
+							"text": "※알바상시모집※ 택배 상하차",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "radar",
+							"iconPath": "Images/labels/item/radar.png",
+							"position": {
+								"y": -576.59765625,
+								"x": 300.10546875
+							},
+							"text": "THAAD",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "solid-fuel",
+							"iconPath": "Images/labels/item/solid-fuel.png",
+							"position": {
+								"y": -51.9296875,
+								"x": 317.1484375
+							},
+							"text": "군용 고체연료",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "coal",
+							"iconPath": "Images/labels/item/coal.png",
+							"position": {
+								"y": 17.125,
+								"x": 309.7421875
+							},
+							"text": "대한석탄공사 화순공업소",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "fluid",
+							"iconName": "crude-oil",
+							"iconPath": "Images/labels/fluid/crude-oil.png",
+							"position": {
+								"y": 115.875,
+								"x": 292.55859375
+							},
+							"text": "7광구",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "rocket-fuel",
+							"iconPath": "Images/labels/item/rocket-fuel.png",
+							"position": {
+								"y": -25.4140625,
+								"x": 334.4609375
+							},
+							"text": "부스터",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "radar",
+							"iconPath": "Images/labels/item/radar.png",
+							"position": {
+								"y": 94.58203125,
+								"x": 384.5078125
+							},
+							"text": "THAAD",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "crude-oil-barrel",
+							"iconPath": "Images/labels/item/crude-oil-barrel.png",
+							"position": {
+								"y": 360,
+								"x": 479
+							},
+							"text": "민주주의 배달 예정",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "radar",
+							"iconPath": "Images/labels/item/radar.png",
+							"position": {
+								"y": -193.6484375,
+								"x": 596.5
+							},
+							"text": "THAAD",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "radar",
+							"iconPath": "Images/labels/item/radar.png",
+							"position": {
+								"y": 153.56640625,
+								"x": 743.44140625
+							},
+							"text": "THAAD",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "radar",
+							"iconPath": "Images/labels/item/radar.png",
+							"position": {
+								"y": 240.32421875,
+								"x": 811.6796875
+							},
+							"text": "THAAD",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "radar",
+							"iconPath": "Images/labels/item/radar.png",
+							"position": {
+								"y": -189.07421875,
+								"x": 859.31640625
+							},
+							"text": "THAAD",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "radar",
+							"iconPath": "Images/labels/item/radar.png",
+							"position": {
+								"y": 206.45703125,
+								"x": 868.03515625
+							},
+							"text": "THAAD",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "radar",
+							"iconPath": "Images/labels/item/radar.png",
+							"position": {
+								"y": 379.32421875,
+								"x": 913.6796875
+							},
+							"text": "THAAD",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "radar",
+							"iconPath": "Images/labels/item/radar.png",
+							"position": {
+								"y": -36.67578125,
+								"x": 942.6796875
+							},
+							"text": "THAAD",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "artillery-targeting-remote",
+							"iconPath": "Images/labels/item/artillery-targeting-remote.png",
+							"position": {
+								"y": 134.96875,
+								"x": 934.89453125
+							},
+							"text": "정복전쟁",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "radar",
+							"iconPath": "Images/labels/item/radar.png",
+							"position": {
+								"y": 171.640625,
+								"x": 1019.99609375
+							},
+							"text": "THAAD",
+							"last_user": "Parking_place",
+							"force": "player"
+						},
+						{
+							"iconType": "item",
+							"iconName": "radar",
+							"iconPath": "Images/labels/item/radar.png",
+							"position": {
+								"y": -1.5703125,
+								"x": 1145.40625
+							},
+							"text": "THAAD",
+							"last_user": "Parking_place",
+							"force": "player"
+						}
+					],
+					"hidden": false,
+					"captured": true,
+					"links": [],
+					"playerPosition": {
+						"y": 295.96875,
+						"x": 12.515625
+					},
+					"day": true,
+					"night": true,
+					"chunks": "//vZ/vcAwxAwOBw=2/vt/vNBw=x/v+/v9Aw=w/v+/v9Aw=v/v9/v9Aw=u/v9/vcAwjAwoAwuAw8Aw=t/v9/vbAwuAw8Aw=+/vb/vcAwxAwNBw=s/v9/vbAwvAw6Aw=r/v9/vbAwvAw4Aw=q/v+/vbAwxAw2Aw=p/v9/vbAw=o/v9/vbAw=n/v9/vbAw=m/v9/vbAw=l/v9/vbAw=k/v+/vbAw=j/v+/vbAw=9/vh/vcAwwAwNBw=8/vh/vcAwwAwNBw=7/vj/vcAwwAwNBw=6/vm/vcAwwAwNBw=5/vs/vNBw=4/vs/vNBw=3/vs/vNBw=AAwZ/vcAwyAwOBw=BAwE/vT/vY/vdAwzAwOBw=KAwB/vd/vm/vNBw=LAwB/vd/vm/vLBw=MAwC/vL/vM/vf/vm/vIBw=NAwC/vL/vM/vf/vm/vHBw=OAwE/vJ/vO/vHBw=PAwP/vFBw=QAwP/v7Aw=RAwR/v7Aw=SAwR/v9Aw=TAwT/v/Aw=CAwC/vV/vY/vdAw1AwOBw=UAwU/v/Aw=VAwV/vRAwYAwjAwtAwABw=WAwW/vQAwYAwjAwtAwABw=XAwW/vQAwYAwjAwuAwABw=YAwW/vPAwYAwjAwuAwABw=ZAwX/vi/vn/vOAwZAwiAwvAwABw=aAwX/vi/vp/vOAwZAwiAwxAwABw=bAwZ/vg/vq/vNAwbAwgAwyAw/Aw=cAwr/vOAwzAw/Aw=dAws/vOAwzAw+Aw=DAwC/vV/vY/veAwxAwOBw=eAwu/vOAw1Aw8Aw=fAwm/vr/vw/vOAw=gAwk/vOAw=hAwi/vNAw=iAwi/vNAw=jAwh/v9/v//vMAw=EAwB/vW/vY/veAwsAwOBw=FAwB/veAwqAwOBw=GAwB/vi/vk/veAwqAwOBw=HAwB/vi/vk/veAwpAwOBw=IAwB/vg/vl/vdAwpAwOBw=JAwB/vb/vl/vdAwpAwNBw=kAwh/v7/vEAwKAw=lAwh/v3/v=mAwh/v3/v=nAwh/v3/v=oAwi/v3/v=pAwi/v3/v=qAwk/v3/v=rAwp/v3/v=sAwp/v3/v=tAwp/v3/v=uAwp/v7/v=vAwo/v9/v=wAwo/v9/v=xAwn/v+/v=yAwn/v+/v=zAwn/v+/v=0AwZ/v+/v=1AwX/v+/v=2AwW/v+/v=3AwW/v+/v=4AwV/v+/v=5AwV/v+/v=6AwV/v+/v=7AwV/v+/v=8AwV/v+/v=9AwU/v+/v=+AwU/v9/v=/AwU/vg/vk/vp/vs/v9/v=ABwU/vg/vu/v7/v=1/vt/v2/vHAwMBw=0/vv/v0/vHAwMBw=BBwU/vg/v=CBwU/vf/v=DBwU/vf/v=EBwU/vf/v=FBwU/vf/v=GBwU/vf/v=HBwU/vf/v=IBwV/ve/v=JBwV/ve/v=KBwX/vc/v=y/vAAw9Aw=i/vAAwbAw=h/vAAwbAw=g/vAAwbAw=f/vAAwbAw=e/vAAwbAw=d/vAAwbAw=c/vAAwbAw=b/vAAwbAw=a/vAAwbAw=Z/vAAwbAw=Y/vAAwbAw=X/vAAwbAw=W/vAAwbAw=V/vBAwaAw=U/vBAwaAw=z/vHAwKBw=T/vDAwYAw"
+				}
+			}
+		}
+	],
+	"defaultSurface": "nauvis"
+}`);
